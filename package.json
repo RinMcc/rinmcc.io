@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
   "version": "0.1.0",
-  "homepage": "https://rinmcc.github.io/personal-site/",
+  "homepage": "https://rinmcc.github.io/rinmcc.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.4.2",
@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build" 
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
