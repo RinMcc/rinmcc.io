@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rinmcc.io/static/css/main.44cd5b9e.css",
+    "main.css": "/rinmcc.io/static/css/main.bcd24075.css",
     "main.js": "/rinmcc.io/static/js/main.424240e3.js",
     "static/js/520.fb4ef876.chunk.js": "/rinmcc.io/static/js/520.fb4ef876.chunk.js",
     "static/js/921.397c48e0.chunk.js": "/rinmcc.io/static/js/921.397c48e0.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/462.750afab4.chunk.js": "/rinmcc.io/static/js/462.750afab4.chunk.js",
     "static/media/about.md": "/rinmcc.io/static/media/about.d36c71c48ff8aeb3aac6.md",
     "index.html": "/rinmcc.io/index.html",
-    "main.44cd5b9e.css.map": "/rinmcc.io/static/css/main.44cd5b9e.css.map",
+    "main.bcd24075.css.map": "/rinmcc.io/static/css/main.bcd24075.css.map",
     "main.424240e3.js.map": "/rinmcc.io/static/js/main.424240e3.js.map",
     "520.fb4ef876.chunk.js.map": "/rinmcc.io/static/js/520.fb4ef876.chunk.js.map",
     "921.397c48e0.chunk.js.map": "/rinmcc.io/static/js/921.397c48e0.chunk.js.map",
@@ -23,7 +23,7 @@
     "462.750afab4.chunk.js.map": "/rinmcc.io/static/js/462.750afab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44cd5b9e.css",
+    "static/css/main.bcd24075.css",
     "static/js/main.424240e3.js"
   ]
 }
