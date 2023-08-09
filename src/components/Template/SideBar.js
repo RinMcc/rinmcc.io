@@ -21,7 +21,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Hi, I&apos;m Aaron. I like building things.
         I am a <a href="https://www.scss.tcd.ie/undergraduate/computer-science-business/ss/">Trinity Computer Science and business</a> graduate
-        , <a href="https://stripe.com">ex-Stripe</a>.
+        and an <a href="https://stripe.com">ex-Stripe</a>.
         Before Stripe I was consulting at <a href="https://www.ibm.com/consulting/">IBM</a>
         , and I&apos;m now looking for a new opportunity.
       </p>
