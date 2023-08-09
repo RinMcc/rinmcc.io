@@ -1,13 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import reportWebVitals from './reportWebVitals';
+import { createRoot, hydrateRoot } from 'react-dom/client';
 import App from './App';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
+// See https://reactjs.org/docs/strict-mode.html
+const StrictApp = () => (
   <React.StrictMode>
     <App />
   </React.StrictMode>
 );
 
-reportWebVitals();
+const rootElement = document.getElementById('root');
+
+// hydrate is required by react-snap.
+if (rootElement.hasChildNodes()) {
+  hydrateRoot(rootElement, <StrictApp />);
+} else {
+  const root = createRoot(rootElement);
+  root.render(<StrictApp />);
+}

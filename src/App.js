@@ -1,7 +1,7 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Main from './layouts/Main'; // fallback for lazy pages
-import './static/css/main.scss'; 
+import './static/css/main.scss'; // All of our styles
 
 const { PUBLIC_URL } = process.env;
 
@@ -11,19 +11,22 @@ const { PUBLIC_URL } = process.env;
 const About = lazy(() => import('./pages/about'));
 const Contact = lazy(() => import('./pages/contact'));
 const Index = lazy(() => import('./pages/index'));
-// const Home = lazy(() => import('./pages/home'));
 const NotFound = lazy(() => import('./pages/notFound'));
+// const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/resume'));
+// const Stats = lazy(() => import('./pages/Stats'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
     <Suspense fallback={<Main />}>
       <Routes>
-        <Route exact path="/" element={<Index />} />
+        <Route path="/" element={<Index />} />
         <Route path="/about" element={<About />} />
+        {/* <Route path="/projects" element={<Projects />} />
+        <Route path="/stats" element={<Stats />} /> */}
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
-        <Route element={<NotFound />} status={404} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Suspense>
   </BrowserRouter>

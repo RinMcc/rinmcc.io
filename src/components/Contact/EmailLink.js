@@ -80,7 +80,8 @@ const EmailLink = ({ loopMessage }) => {
         <br />
         You can email me anything , like:
       </p>
-      <p>{message}</p>
+      <span className="message">{message}</span>
+      <span className="blinking-cursor">|</span>
     </div>
   );
 };

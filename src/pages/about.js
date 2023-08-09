@@ -1,40 +1,42 @@
-import React from 'react';
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import ReactMarkdown from 'react-markdown';
-import MarkDownFile from '../data/about.md';
+import Markdown from 'markdown-to-jsx';
 
 import Main from '../layouts/Main';
 
-
 const About = () => {
-  const [content, setContent] = useState("");
+  const [markdown, setMarkdown] = useState('');
 
   useEffect(() => {
-    fetch(MarkDownFile)
-      .then((res) => res.text())
-      .then((text) => setContent(text));
-  }, []);
+    import('../data/about.md')
+      .then((res) => {
+        fetch(res.default)
+          .then((r) => r.text())
+          .then(setMarkdown);
+      });
+  });
 
-  const count = content.split(/\s+/)
-  .map((s) => s.replace(/\W/g, ''))
-  .filter((s) => s.length).length;
+  const count = markdown.split(/\s+/)
+    .map((s) => s.replace(/\W/g, ''))
+    .filter((s) => s.length).length;
 
   return (
     <Main
     title="About"
     description="Learn about Aaron McCarthy"
-  >
-    <article className="post markdown" id="about">
-      <header>
-        <div className="title">
-          <h2 data-testid="heading"><Link to="/about">About Me</Link></h2>
-          <p>(in about {count} words)</p>
-        </div>
-      </header>
-      <ReactMarkdown children={content} />
-    </article>
-  </Main>
+    >
+      <article className="post markdown" id="about">
+        <header>
+          <div className="title">
+            <h2><Link to="/about">About Me</Link></h2>
+            <p>(in about {count} words)</p>
+          </div>
+        </header>
+        <Markdown>
+          {markdown}
+        </Markdown>
+      </article>
+    </Main>
   );
 };
 
