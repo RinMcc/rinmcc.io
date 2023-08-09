@@ -12,25 +12,14 @@
       margin: 0;
     }
 
-    @keyframes blinking-cursor {
-      0% {
-       opacity: 0;
-      }
-      20% {
-       opacity: 1;
-      }
-      40% {
-       opacity: 0;
-      }
-      60% {
-       opacity: 1;
-      }
-      80% {
-       opacity: 0;
-      }
-      100% {
-       opacity: 1;
-      }
+    //make the span with the className 'blinking-cursor' blink
+    .blinking-cursor {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      from, to { color: transparent }
+      50% { color: black; }
     }
     
     .inline-container {
