@@ -33,7 +33,7 @@ const SideBar = () => (
     </section>
 
     <section id="footer">
-      <p className="copyright">&copy; Aaron McCarthy <Link to="/">https://rinmcc.github.io/personal-site/</Link>.</p>
+      <p className="copyright">&copy; Aaron McCarthy <Link to="/">https://rinmcc.github.io/rinmcc.io/</Link>.</p>
     </section>
   </section>
 );
