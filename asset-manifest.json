@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/rinmcc.io/static/css/main.bcd24075.css",
-    "main.js": "/rinmcc.io/static/js/main.880526fe.js",
+    "main.css": "/rinmcc.io/static/css/main.72398eff.css",
+    "main.js": "/rinmcc.io/static/js/main.3a6ddc88.js",
     "static/js/520.fb4ef876.chunk.js": "/rinmcc.io/static/js/520.fb4ef876.chunk.js",
     "static/js/921.397c48e0.chunk.js": "/rinmcc.io/static/js/921.397c48e0.chunk.js",
     "static/js/812.60e5e104.chunk.js": "/rinmcc.io/static/js/812.60e5e104.chunk.js",
     "static/js/574.00cd2f42.chunk.js": "/rinmcc.io/static/js/574.00cd2f42.chunk.js",
-    "static/js/395.cb26e572.chunk.js": "/rinmcc.io/static/js/395.cb26e572.chunk.js",
+    "static/js/966.79b92bac.chunk.js": "/rinmcc.io/static/js/966.79b92bac.chunk.js",
     "static/js/209.4aac1e5e.chunk.js": "/rinmcc.io/static/js/209.4aac1e5e.chunk.js",
     "static/js/625.b6bcde29.chunk.js": "/rinmcc.io/static/js/625.b6bcde29.chunk.js",
     "static/js/462.750afab4.chunk.js": "/rinmcc.io/static/js/462.750afab4.chunk.js",
     "static/media/about.md": "/rinmcc.io/static/media/about.d36c71c48ff8aeb3aac6.md",
     "index.html": "/rinmcc.io/index.html",
-    "main.bcd24075.css.map": "/rinmcc.io/static/css/main.bcd24075.css.map",
-    "main.880526fe.js.map": "/rinmcc.io/static/js/main.880526fe.js.map",
+    "main.72398eff.css.map": "/rinmcc.io/static/css/main.72398eff.css.map",
+    "main.3a6ddc88.js.map": "/rinmcc.io/static/js/main.3a6ddc88.js.map",
     "520.fb4ef876.chunk.js.map": "/rinmcc.io/static/js/520.fb4ef876.chunk.js.map",
     "921.397c48e0.chunk.js.map": "/rinmcc.io/static/js/921.397c48e0.chunk.js.map",
     "812.60e5e104.chunk.js.map": "/rinmcc.io/static/js/812.60e5e104.chunk.js.map",
     "574.00cd2f42.chunk.js.map": "/rinmcc.io/static/js/574.00cd2f42.chunk.js.map",
-    "395.cb26e572.chunk.js.map": "/rinmcc.io/static/js/395.cb26e572.chunk.js.map",
+    "966.79b92bac.chunk.js.map": "/rinmcc.io/static/js/966.79b92bac.chunk.js.map",
     "209.4aac1e5e.chunk.js.map": "/rinmcc.io/static/js/209.4aac1e5e.chunk.js.map",
     "462.750afab4.chunk.js.map": "/rinmcc.io/static/js/462.750afab4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd24075.css",
-    "static/js/main.880526fe.js"
+    "static/css/main.72398eff.css",
+    "static/js/main.3a6ddc88.js"
   ]
 }
