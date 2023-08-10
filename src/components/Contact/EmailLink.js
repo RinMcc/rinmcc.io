@@ -46,6 +46,7 @@ const EmailLink = ({ loopMessage }) => {
   const [char, updateChar] = useState(0); // points to current char
   const [isActive, setIsActive] = useState(true); // disable when all messages are printed
 
+  
   useInterval(() => {
     let newIdx = idx;
     let newChar = char;

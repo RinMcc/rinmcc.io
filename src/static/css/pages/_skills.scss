@@ -91,3 +91,66 @@
 	color:#444;
 	color:rgba(0, 0, 0, 0.4);
 }
+
+.skills .skill-title {
+	display: inline;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+	font-weight: 500;
+	letter-spacing: 0.25em;
+	line-height: 2.5;
+	margin-top: -1em;
+}
+
+.skills .skill-name {
+	display: inline;
+	font-family: "Raleway", Helvetica, sans-serif;
+	font-size: 0.7em;
+  font-weight: 400;
+  letter-spacing: 0.25em;
+  line-height: 2.5;
+  margin-top: -1em;
+  text-transform: uppercase;
+}
+
+.skills ul li{
+  display: inline-block;
+  
+}
+
+.skills ul li::marker {
+	  content: "•";
+  color: #6adcfa;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-right: 0.5em;
+}
+
+.skill-dot {
+	display: inline;
+	// display: none;
+}
+
+.skill-container {
+	margin: 0.5em 1em;
+	border: #444;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 0.5em;
+}
+
+.skill-row-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+@include breakpoint(small) {
+	.skill-dot {
+		display: none;
+	}
+	.skill-container div{
+		display: block;
+	}
+}

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import CategoryButton from './Skills/CategoryButton';
-// import SkillBar from './Skills/SkillBar';
+import SkillBar from './Skills/SkillBar';
 import Skill from './Skills/Skill';
 
 const handleProps = ({ categories, skills }) => ({
@@ -79,9 +79,9 @@ class Skills extends Component {
         <div className="skill-button-container">
           {this.getButtons()}
         </div>
-        <ul className="skill-row-container">
+        <div className="skill-row-container">
           {this.getRows()}
-        </ul>
+        </div>
       </div>
     );
   }

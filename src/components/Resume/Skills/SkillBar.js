@@ -13,7 +13,7 @@ const SkillBar = ({ data, categories }) => {
 
   const barStyle = {
     ...titleStyle,
-    width: `${String(Math.min(100, Math.max((1.0) * 100.0, 0)))}%`,
+    width: `${String(Math.min(100, Math.max((0.5) * 100.0, 0)))}%`,
   };
 
   return (
