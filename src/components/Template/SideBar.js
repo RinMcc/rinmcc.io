@@ -23,7 +23,7 @@ const SideBar = () => (
         I am a <a href="https://www.scss.tcd.ie/undergraduate/computer-science-business/ss/">Trinity Computer Science and business</a> graduate
         and an <a href="https://stripe.com">ex-Stripe</a>.
         Before Stripe I was consulting at <a href="https://www.ibm.com/consulting/">IBM</a>
-        , and I&apos;m now looking for a new opportunity.
+        , and I&apos;ve recently joined AWS on the Enterprise Customer Service team.
       </p>
       <ul className="actions">
         <li>
